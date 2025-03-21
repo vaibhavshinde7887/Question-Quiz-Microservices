@@ -9,6 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 
+
 public class Question {
 
     @Id
@@ -23,6 +24,7 @@ public class Question {
     private String rightAnswer;
     private String difficultyLevel;
     private String category;
+
 
     public Integer getId() {
         return id;

@@ -16,6 +16,10 @@ public class QuestionWrapper {
     private String option3;
     private String option4;
 
+    public QuestionWrapper() {
+
+    }
+
 
     public Integer getId() {
         return id;
@@ -73,4 +77,5 @@ public class QuestionWrapper {
         this.option3 = option3;
         this.option4 = option4;
     }
+
 }
